@@ -22,6 +22,13 @@
 | Notebook | Description | Key Concepts |
 |---|---|---|
 | [linearregression.ipynb](linearregression.ipynb) | Hands-on linear regression using scikit-learn — fit a model, extract slope/intercept, visualize the regression line, and make predictions | Least squares, `LinearRegression`, matplotlib visualization |
+| [logisticregression.ipynb](logisticregression.ipynb) | Hands-on logistic regression using scikit-learn — train/test split, model training, accuracy evaluation, and sigmoid curve visualization | Binary classification, `LogisticRegression`, sigmoid function, train-test split |
+
+### Sample Data
+
+| File | Description |
+|---|---|
+| [sample_data/student_data.csv](sample_data/student_data.csv) | Student study hours and pass/fail outcomes for logistic regression |
 
 ---
 
@@ -38,12 +45,10 @@
 ## Prerequisites
 
 - Python 3.8+
-- [NumPy](https://numpy.org/), [Matplotlib](https://matplotlib.org/), [scikit-learn](https://scikit-learn.org/)
-
-Install dependencies:
+- Install dependencies:
 
 ```bash
-pip install numpy matplotlib scikit-learn
+pip install -r requirements.txt
 ```
 
 ---
