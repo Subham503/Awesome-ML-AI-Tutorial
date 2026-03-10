@@ -23,12 +23,14 @@
 |---|---|---|
 | [linearregression.ipynb](linearregression.ipynb) | Hands-on linear regression using scikit-learn — fit a model, extract slope/intercept, visualize the regression line, and make predictions | Least squares, `LinearRegression`, matplotlib visualization |
 | [logisticregression.ipynb](logisticregression.ipynb) | Hands-on logistic regression using scikit-learn — train/test split, model training, accuracy evaluation, and sigmoid curve visualization | Binary classification, `LogisticRegression`, sigmoid function, train-test split |
+| [svm.ipynb](svm.ipynb) | Hands-on SVM classification using scikit-learn — feature scaling, RBF kernel, decision boundary visualization, and confusion matrix | `SVC`, kernel trick, `StandardScaler`, decision boundary |
 
 ### Sample Data
 
 | File | Description |
 |---|---|
 | [sample_data/student_data.csv](sample_data/student_data.csv) | Student study hours and pass/fail outcomes for logistic regression |
+| [sample_data/iris_binary.csv](sample_data/iris_binary.csv) | Binary Iris subset (Setosa vs Versicolor) for SVM classification |
 
 ---
 
